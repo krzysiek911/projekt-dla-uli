@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Studia podyplomowe WSEI</title>
+<meta name="description" content="Opis strony">
+
+<link rel="stylesheet" href="css/style.css"> 
+<link rel="stylesheet" href="css/lightbox.min.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+
+</head>
+
+
+
+<body>
+
+
+<header>
+
+<nav>
+
+<ul>
+
+<li>
+<a href="index.html">Strona główna</a>
+</li>
+
+<li>
+<a href="kierunki.html">Oferta kierunków</a>
+</li>
+
+
+<li>
+<a href="galeria.html">Galeria zdjęć</a>
+</li>
+
+
+<li>
+<a href="#">Kontakt</a>
+</li>
+
+
+</ul>
+
+</nav>
+
+
+
+
+
+
+</header>
+
+
+
+
+<div class="galeria">
+
+
+
+<div class="portfolio">
+
+<a href="galeria/foto1_d.jpg" data-lightbox="portfolio" data-title="Skacząca dziewczyna">
+
+<img src="galeria/foto1_m.jpg" alt"">
+
+</a>
+
+<a href="galeria/foto2_d.jpg" data-lightbox="portfolio">
+
+<img src="galeria/foto2_m.jpg" alt"">
+
+</a>
+
+<a href="galeria/foto3_d.jpg" data-lightbox="portfolio">
+
+<img src="galeria/foto3_m.jpg" alt"">
+
+</a>
+
+</div>
+
+<div class="portfolio">
+
+<a href="galeria/foto4_d.jpg" data-lightbox="portfolio">
+
+<img src="galeria/foto4_m.jpg" alt"">
+
+</a>
+
+<a href="galeria/foto5_d.jpg" data-lightbox="portfolio">
+
+<img src="galeria/foto5_m.jpg" alt"">
+
+</a>
+
+<a href="galeria/foto6_d.jpg" data-lightbox="portfolio">
+
+<img src="galeria/foto6_m.jpg" alt"">
+
+</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="slajder">
+
+<ul class="rslides">
+  <li><img src="images/foto-index.jpg" alt=""></li>
+   <li><img src="images/foto-index1.jpg" alt=""></li> 
+   <li><img src="images/foto-index2.jpg" alt=""></li>
+    <li><img src="images/foto-index3.jpg" alt=""></li>
+</ul>
+
+</div>
+
+<footer class="stopka">Wszelskie prawa zastrzeżone &copy WSEI Lublin </footer>
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+
+<script src="js/lightbox.min.js"></script>
+<script>
+    lightbox.option({
+      
+      albumLabel:  	"Zdjęcie %1 z %2",
+	  wrapAround: true,
+	  
+    })
+</script>
+
+<script>
+  $(function() {
+    $(".rslides").responsiveSlides({
+	speed: 1000,
+	timeout: 2600,
+	pager: true,
+
+});
+});
+  
+</script>
+
+
+</body>
+
+</html>
